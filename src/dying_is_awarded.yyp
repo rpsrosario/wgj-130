@@ -31,6 +31,22 @@
     },
     "resources": [
         {
+            "Key": "04abebc4-5b91-49ed-bfd9-2ee3d5b0623c",
+            "Value": {
+                "id": "da8f557c-bd2c-4bea-bb73-468df11389ae",
+                "resourcePath": "sprites\\spr_linked_death_source\\spr_linked_death_source.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "07f3fd76-8d07-4e81-8669-cea03f47004d",
+            "Value": {
+                "id": "62b313fe-11dc-4903-b3ca-cabb5b24c138",
+                "resourcePath": "scripts\\find_linked_death_source\\find_linked_death_source.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "10a01d66-930d-43be-b17b-2f6fa2617f8f",
             "Value": {
                 "id": "6d83da0a-1cc3-48ab-915c-b43248f2cec7",
@@ -116,6 +132,22 @@
                 "id": "216bfa61-67fa-44c3-8c84-1e6888ee13f2",
                 "resourcePath": "views\\6159996d-8b3f-4158-9a2e-5563103becfd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6173bea0-0384-4e51-ba65-b4a08628a89f",
+            "Value": {
+                "id": "e4aa23e4-2e96-4d49-9cca-b38946e76047",
+                "resourcePath": "objects\\obj_death_source\\obj_death_source.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6e6ee264-4c0f-4e3f-86f1-4886a77ef0bc",
+            "Value": {
+                "id": "ca137cd1-5591-4799-843f-76abd5e55626",
+                "resourcePath": "objects\\obj_linked_death_source\\obj_linked_death_source.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -247,6 +279,14 @@
             }
         },
         {
+            "Key": "e74ca31c-53ba-47b7-a701-f20ddbff4487",
+            "Value": {
+                "id": "5cf21d3f-ca0e-4421-aeb5-5809998f6009",
+                "resourcePath": "views\\e74ca31c-53ba-47b7-a701-f20ddbff4487.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e9a6a73b-4435-43a2-87d3-2d25b845044b",
             "Value": {
                 "id": "d5587fdc-43a4-498c-8592-1a42237d2b11",
@@ -269,6 +309,14 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "f716140e-5b03-46f2-9987-dde99ee00e51",
+            "Value": {
+                "id": "8cbbbe36-c447-4476-adb7-0262206b3bb2",
+                "resourcePath": "sprites\\spr_death_source\\spr_death_source.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
@@ -276,7 +324,8 @@
         "aef47e81-7865-4c0d-8fb3-a5e728dc4762",
         "59a1e5fd-8946-4843-8682-c2948275a378",
         "10a01d66-930d-43be-b17b-2f6fa2617f8f",
-        "d3a82ee4-1de6-4116-89ad-a461c53d9cba"
+        "d3a82ee4-1de6-4116-89ad-a461c53d9cba",
+        "07f3fd76-8d07-4e81-8669-cea03f47004d"
     ],
     "tutorial": ""
 }
