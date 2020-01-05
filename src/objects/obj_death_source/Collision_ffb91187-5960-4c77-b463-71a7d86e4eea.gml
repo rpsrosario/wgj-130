@@ -2,6 +2,7 @@
 
 other.x = other.xstart;
 other.y = other.ystart;
+other.death_count++;
 
 var instance = is_undefined(link) ? id : find_linked_death_source(link);
 for (var tx = instance.bbox_left; tx <= instance.bbox_right; tx += CELL_SIZE) {
