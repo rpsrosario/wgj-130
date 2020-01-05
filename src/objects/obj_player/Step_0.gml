@@ -30,8 +30,12 @@ if (speed_vector[0] < 0) {
 
 if (is_solid(tilemap, bbox_left, bbox_bottom + 1) || is_solid(tilemap, bbox_right, bbox_bottom + 1)) {
   speed_vector[1] = 0;
-  if (input_jump()) {
+  if (input_jump()
+    && !is_solid(tilemap, bbox_left, bbox_top - 1)
+    && !is_solid(tilemap, bbox_right, bbox_top - 1)) {
+
     speed_vector[1] = -JUMP_SPEED;
+    audio_play_sound(sfx_jump, 0, false);
   }
 } else {
   speed_vector[1] = min(speed_vector[1] + GRAVITY, MAX_SPEED);

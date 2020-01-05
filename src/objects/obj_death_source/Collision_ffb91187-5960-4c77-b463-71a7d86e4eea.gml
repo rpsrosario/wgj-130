@@ -1,5 +1,7 @@
 /// @description Disable Death Source
 
+audio_play_sound(sfx_death, 2, false);
+
 other.x = other.xstart;
 other.y = other.ystart;
 other.death_count++;
