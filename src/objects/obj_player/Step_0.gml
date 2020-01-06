@@ -1,5 +1,16 @@
 /// @description Move Player
 
+#region Time Management
+
+var original = time_remaining;
+time_remaining -= delta_time / 1000;
+if (time_remaining < 0) {
+  game_restart();
+} else if (original > STRESS_TIME && time_remaining <= STRESS_TIME) {
+  audio_sound_gain(bgm, 1.0, GAIN_TIME);
+}
+
+#endregion
 #region Horizontal Movement
 
 var delta_x = input_move_right() - input_move_left();
