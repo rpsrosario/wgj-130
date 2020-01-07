@@ -21,3 +21,4 @@
 #macro COLLISION      1
 
 #macro FAKE_WALL_ALPHA_SPEED 0.05
+#macro LAUNCHER_MAX_DELAY 20
