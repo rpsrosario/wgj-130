@@ -25,7 +25,10 @@
         "FrameData": [
             0,
             1,
-            2
+            2,
+            3,
+            4,
+            5
         ],
         "SerialiseFrameCount": 1
     },
@@ -33,7 +36,7 @@
         
     ],
     "tile_animation_speed": 15,
-    "tile_count": 3,
+    "tile_count": 6,
     "tileheight": 24,
     "tilehsep": 1,
     "tilevsep": 1,
