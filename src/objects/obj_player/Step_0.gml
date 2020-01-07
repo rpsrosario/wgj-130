@@ -11,6 +11,17 @@ if (time_remaining < 0) {
 }
 
 #endregion
+#region Reset
+
+if (input_reset()) {
+  speed_vector[0] = 0;
+  speed_vector[1] = 0;
+  x = xstart;
+  y = ystart;
+  exit;
+}
+
+#endregion
 #region Horizontal Movement
 
 var delta_x = input_move_right() - input_move_left();
