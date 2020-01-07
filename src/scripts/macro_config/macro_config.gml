@@ -19,3 +19,5 @@
 #macro TILEMAP_LAYER  "Platform"
 #macro CELL_SIZE      24
 #macro COLLISION      1
+
+#macro FAKE_WALL_ALPHA_SPEED 0.05
