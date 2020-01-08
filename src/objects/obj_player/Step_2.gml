@@ -9,6 +9,8 @@ for (var i = 0; i < instance_number(obj_death_teleport); i++) {
 }
 
 if (remaining_death_sources == 0) {
+  audio_play_sound(sfx_success, 1, false);
+
   var total_levels = ds_list_size(global.levels);
   if (++global.current_level == total_levels) {
     show_message("You passed all the levels!");

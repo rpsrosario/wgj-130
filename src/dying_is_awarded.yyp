@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "23c0829c-ca89-4b1a-9361-8c6cf1343821",
+            "Value": {
+                "id": "eab98ff2-eb69-48eb-bd82-3b9a87a595a9",
+                "resourcePath": "sounds\\sfx_success\\sfx_success.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "272edf65-88d1-48e0-849f-6cda2fc0d20e",
             "Value": {
                 "id": "ecdbcc24-b912-411a-96db-6c37b4d502a7",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "45c9892e-5239-4a7f-ac2f-d6db0c8ded2c",
+            "Value": {
+                "id": "bd79a5a5-63a6-4c5a-a031-6aa63c7c996e",
+                "resourcePath": "datafiles_yy\\whitrabt.ttf.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "48276420-e8d9-42a0-8196-7b95e1c6b82b",
             "Value": {
                 "id": "f5c5306e-f694-4d47-893f-38001e003483",
@@ -228,6 +244,14 @@
                 "id": "d4cab1e1-64ac-470e-be1d-b18b3462172d",
                 "resourcePath": "sprites\\spr_project_up\\spr_project_up.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5aca2665-34f0-4bb1-bcac-b621f9e735f3",
+            "Value": {
+                "id": "7656cb92-73a6-47a5-9997-a2243d9d3eb8",
+                "resourcePath": "views\\89b49a5b-b82b-45c4-8a37-18a12cddaf4f-room.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -375,11 +399,27 @@
             }
         },
         {
+            "Key": "99e0d2ff-c194-428c-a60c-2b87a65bda74",
+            "Value": {
+                "id": "56260c0b-8945-44c8-965d-04241fb16a84",
+                "resourcePath": "sounds\\sfx_end\\sfx_end.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9a4f5ce2-848b-4705-94fa-0f19768da9e9",
             "Value": {
                 "id": "15d2a515-3475-4a4a-8903-26b5fec37325",
                 "resourcePath": "views\\9a4f5ce2-848b-4705-94fa-0f19768da9e9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9b791e99-34a3-48c0-9798-682df1321598",
+            "Value": {
+                "id": "1825132b-dc34-4894-a3c1-4557473f2827",
+                "resourcePath": "datafiles_yy\\whitrabt.ttf.license.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {

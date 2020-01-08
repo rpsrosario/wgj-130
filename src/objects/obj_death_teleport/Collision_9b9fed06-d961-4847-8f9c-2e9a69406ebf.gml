@@ -2,8 +2,13 @@
 
 audio_play_sound(sfx_death, 2, false);
 
+effect_create_above(ef_firework, other.x + CELL_SIZE / 2, other.y + CELL_SIZE / 2, 0, c_red);
+
 other.x = obj_spawn.x;
 other.y = obj_spawn.y;
+
+other.speed_vector[0] = 0;
+other.speed_vector[1] = 0;
 
 if (!used) {
   other.death_count++;
