@@ -8,3 +8,6 @@ time_remaining = INITIAL_TIME;
 
 bgm = audio_play_sound(bgm_level, 1, true);
 audio_sound_gain(bgm, 0.4, 0);
+
+// Ensure player is in front of other objects
+depth = -10;

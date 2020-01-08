@@ -2,5 +2,5 @@
 
 event_inherited();
 
-message = "YOU PASSED\nALL LEVELS!";
+message = "YOU COMPLETED\nALL LEVELS!";
 message_color = c_green;
