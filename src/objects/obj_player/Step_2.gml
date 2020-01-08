@@ -13,8 +13,7 @@ if (remaining_death_sources == 0) {
 
   var total_levels = ds_list_size(global.levels);
   if (++global.current_level == total_levels) {
-    show_message("You passed all the levels!");
-    game_restart();
+    room_goto(rm_success);
   } else {
     deserialize_map(global.levels[| global.current_level]);
   }
