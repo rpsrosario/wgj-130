@@ -1,3 +1,6 @@
-/// @description Setup Time Control
+/// @description Setup Mesage
 
-time = 0;
+event_inherited();
+
+message = "TIME RAN OUT!";
+message_color = c_red;
