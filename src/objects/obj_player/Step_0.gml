@@ -6,7 +6,8 @@ var original = time_remaining;
 time_remaining -= delta_time / 1000;
 if (time_remaining < 0) {
   audio_play_sound(sfx_end, 5, false);
-  room_restart();
+  room_goto(rm_failed);
+  audio_stop_sound(bgm);
   exit;
 } else if (original > STRESS_TIME && time_remaining <= STRESS_TIME) {
   audio_sound_gain(bgm, 1.0, GAIN_TIME);

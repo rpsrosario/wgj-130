@@ -607,10 +607,26 @@
             }
         },
         {
+            "Key": "d91f1a4d-e047-419b-940a-83fda0d76890",
+            "Value": {
+                "id": "9448114c-9360-4b3e-9a12-ed306e9ed8f2",
+                "resourcePath": "rooms\\rm_failed\\rm_failed.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "e0252180-4b4b-46ee-8396-081a57a5bc8c",
             "Value": {
                 "id": "4339f33c-16bd-4df0-9e74-35e58ea35f12",
                 "resourcePath": "objects\\par_launcher\\par_launcher.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e1fd3dbc-6001-40ca-a4ec-551a0ced26a4",
+            "Value": {
+                "id": "5462ac65-4d52-4bd9-9dd8-6d3c092f5abe",
+                "resourcePath": "objects\\obj_failed\\obj_failed.yy",
                 "resourceType": "GMObject"
             }
         },

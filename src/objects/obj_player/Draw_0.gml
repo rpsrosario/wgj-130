@@ -1,4 +1,9 @@
-/// @description Draw Score
+/// @description Draw GUI
+
+if (view_current == 0) {
+  draw_self();
+  exit;
+}
 
 draw_set_color($222222);
 draw_rectangle(0, 0, 792, 72, false);
