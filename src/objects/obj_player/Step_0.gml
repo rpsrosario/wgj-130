@@ -16,8 +16,8 @@ if (time_remaining < 0) {
 if (input_reset()) {
   speed_vector[0] = 0;
   speed_vector[1] = 0;
-  x = xstart;
-  y = ystart;
+  x = obj_spawn.x;
+  y = obj_spawn.y;
   exit;
 }
 
@@ -35,7 +35,6 @@ if (delta_x != 0) {
 x += speed_vector[0];
 
 if (speed_vector[0] < 0) {
-  // TODO: Enum based approach
   if (is_solid(tilemap, bbox_left, bbox_top) || is_solid(tilemap, bbox_left, bbox_bottom)) {
     speed_vector[0] = 0;
     x = (floor(x / CELL_SIZE) + 1) * CELL_SIZE;

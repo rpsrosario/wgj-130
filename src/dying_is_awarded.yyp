@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "2dd53333-b73b-46de-b7c9-8d437a9705c3",
+            "Value": {
+                "id": "c8b31fca-b089-457c-bb93-7970e4e7b14d",
+                "resourcePath": "scripts\\serialize_map\\serialize_map.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2e29ba49-edd6-4254-8e81-4dff311ca152",
             "Value": {
                 "id": "95b0f01f-edb7-4646-9abd-5381ebda1f94",
@@ -295,11 +303,27 @@
             }
         },
         {
+            "Key": "87fbd1f6-da38-4025-b251-314b116c4e5c",
+            "Value": {
+                "id": "d753c671-3b08-4b21-a9ba-30ec1c103d4c",
+                "resourcePath": "scripts\\deserialize_map\\deserialize_map.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "89b49a5b-b82b-45c4-8a37-18a12cddaf4f",
             "Value": {
                 "id": "43256b18-6e10-471d-8ef9-7d4ebacf4ab0",
                 "resourcePath": "rooms\\rm_init\\rm_init.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8fe158b4-b4f4-4569-8823-fa1e4923ea26",
+            "Value": {
+                "id": "8e88ec20-c415-42fd-8f8b-b397adb58461",
+                "resourcePath": "objects\\obj_spawn\\obj_spawn.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -332,6 +356,14 @@
                 "id": "4373cbf8-8184-4508-8800-b0b30b5386a2",
                 "resourcePath": "sprites\\spr_death_teleport\\spr_death_teleport.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "98f9ce6e-0b66-42c6-a3e6-b2c31a5e7894",
+            "Value": {
+                "id": "57d87059-24fc-4f9a-8e35-dafc9a47189d",
+                "resourcePath": "rooms\\rm_game\\rm_game.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -487,6 +519,14 @@
             }
         },
         {
+            "Key": "cf1ba078-0bee-4d7c-ba05-bc7ff8e0c9e9",
+            "Value": {
+                "id": "35c62c1e-a28a-4037-b5c0-d18d5eee920f",
+                "resourcePath": "sprites\\spr_spawn\\spr_spawn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cf9c00a8-25c2-46f4-a7df-57c76fbecb77",
             "Value": {
                 "id": "c86a9fbb-547a-4845-bdfc-69914224649f",
@@ -589,6 +629,8 @@
         "59a1e5fd-8946-4843-8682-c2948275a378",
         "6e24dd33-1bd9-48c4-b583-0b6b532cb11d",
         "10a01d66-930d-43be-b17b-2f6fa2617f8f",
+        "2dd53333-b73b-46de-b7c9-8d437a9705c3",
+        "87fbd1f6-da38-4025-b251-314b116c4e5c",
         "07f3fd76-8d07-4e81-8669-cea03f47004d",
         "bc847f51-e958-4e74-91e4-4d45db127f6f",
         "d3a82ee4-1de6-4116-89ad-a461c53d9cba"

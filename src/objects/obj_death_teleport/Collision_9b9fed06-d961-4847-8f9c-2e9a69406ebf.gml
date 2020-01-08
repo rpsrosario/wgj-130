@@ -2,8 +2,8 @@
 
 audio_play_sound(sfx_death, 2, false);
 
-other.x = other.xstart;
-other.y = other.ystart;
+other.x = obj_spawn.x;
+other.y = obj_spawn.y;
 
 if (!used) {
   other.death_count++;
