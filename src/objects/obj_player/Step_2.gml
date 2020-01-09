@@ -15,6 +15,12 @@ if (remaining_death_sources == 0) {
   if (++global.current_level == total_levels) {
     room_goto(rm_success);
   } else {
+    var original = other.time_remaining;
+    other.time_remaining += LEVEL_BONUS;
+    if (original <= STRESS_TIME && other.time_remaining > STRESS_TIME) {
+      audio_sound_gain(other.bgm, 0.4, GAIN_TIME / 4);
+    }
+    
     deserialize_map(global.levels[| global.current_level]);
   }
 }
