@@ -11,7 +11,7 @@
 #macro JUMP_SPEED 20
 #macro MAX_SPEED  8
 
-#macro INITIAL_TIME 200000
+#macro INITIAL_TIME 20000
 #macro BONUS_TIME   5000
 #macro STRESS_TIME  7000
 #macro GAIN_TIME    4000

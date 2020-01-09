@@ -7,4 +7,4 @@
 
 return keyboard_check_pressed(vk_backspace)
   || keyboard_check_pressed(ord("R"))
-  || (gamepad_is_connected(0) && gamepad_button_check(0, gp_select));
+  || (gamepad_is_connected(0) && gamepad_button_check_pressed(0, gp_select));

@@ -8,8 +8,8 @@
 
 var time = argument0;
 
-var millis = time mod 1000;
-var seconds = (time div 1000) mod 60;
+var millis = floor(time mod 1000);
+var seconds = floor((time div 1000) mod 60);
 var minutes = time div 60000;
 
 return string_replace_all(string_format(minutes, 2, 0), " ", "0") + ":"

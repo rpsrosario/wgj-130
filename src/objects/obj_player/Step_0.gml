@@ -25,6 +25,14 @@ if (input_reset()) {
 }
 
 #endregion
+#region Pause
+
+if (input_pause()) {
+  room_persistent = true;
+  room_goto(rm_paused);
+}
+
+#endregion
 #region Horizontal Movement
 
 var delta_x = input_move_right() - input_move_left();
