@@ -1,0 +1,15 @@
+Game created by Rui Rosário
+Level Design by André Ribeiro
+
+Sounds obtained from freesounds.org, props to
+  LittleRainySeasons
+  GabrielAraujo
+  CarlosCAV
+  BloodPixel
+  MentosLat
+
+Fonts obtained from dafont.com, props to
+  Indra Gunawan
+  Matthew Welch
+
+Created using GameMaker: Studio 2 so props to YoYoGames Ltd.
